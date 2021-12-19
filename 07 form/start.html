@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Lezione HTML</title>
+	<style>
+		label {
+			display: block
+		}
+	</style>
+</head>
+
+<body>
+	<form action="" method="#">
+		<fieldset>
+			<legend>Dati anagrafici</legend>
+			<label for="name">
+				<span>Nome</span>
+				<input type="text" name="name" id="name">
+			</label>
+			<label for="surname">
+				<span>Cognome</span>
+				<input type="text" name="surname" id="surname">
+			</label>
+			<label for="mail">
+				<span>email</span>
+				<input type="email" name="email" id="mail">
+			</label>
+			<label for="password">
+				<span>password</span>
+				<input type="password" name="password" id="password">
+			</label>
+			<label for="data">
+				<span>Data di nascita</span>
+				<input type="date" name="data" id="data">
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Abbonamento</legend>
+			<label for="abbonamento">Scegli il tuo abbonamento</label>
+			<select name="abbonamento" id="abbonamento">
+				<option value="0">Free</option>
+				<optgroup label="A partire da">
+					<option value="3,99">3,99€</option>
+					<option value="6,99">6,99€</option>
+					<option value="9,99">9,99€</option>
+				</optgroup>
+			</select>
+			<label for="pro">
+				<span>Vantaggi Pro  +5,99€</span>
+				<input type="checkbox" name="pro" id="pro">
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Pagamento</legend>
+			<label for="number-card">
+				<span>Numero di Carta</span>
+				<input type="number" name="numero-carta" id="number-card">
+			</label>
+			<label for="cvc">
+				<span>CVC</span>
+				<input type="number" name="cvc" id="cvc">
+			</label>
+			<label for="scadenza">
+				<span>Scadenza</span>
+				<input type="date" name="scadenza" id="scadenza">
+			</label>
+			<label for="indirizzo">
+				<span>Indirizzo</span> 
+				<input type="text" name="indirizzo" id="indirizzo">
+			</label>
+		</fieldset>
+	</form>
+</body>
+
+</html>
